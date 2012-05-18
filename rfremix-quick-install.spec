@@ -1,7 +1,7 @@
 Summary:	RFRemix kickstarts and repos
 Name:		rfremix-quick-install
 Version:	17
-Release:	0.2%{?dist}
+Release:	0.3%{?dist}
 
 License:	GPLv2
 Group:		System Environment/Base
@@ -39,6 +39,10 @@ install -m 644 *.repo %{buildroot}%{_sysconfdir}/yum.repos.d
 
 
 %changelog
+* Fri May 18 2012 Arkady L. Shane <ashejn@yandex-team.ru> - 17-0.3.R
+- do not include @office to kde ks quick install file. We use
+  @desktop-minimal
+
 * Sat Mar 10 2012 Arkady L. Shane <ashejn@yandex-team.ru> - 17-0.2.R
 - place files to another directories
 
