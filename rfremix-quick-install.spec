@@ -1,7 +1,7 @@
 Summary:	RFRemix kickstarts and repos
 Name:		rfremix-quick-install
 Version:	18
-Release:	0.1%{?dist}
+Release:	0.2%{?dist}
 
 License:	GPLv2
 Group:		System Environment/Base
@@ -36,6 +36,9 @@ install -m 644 *.cfg %{buildroot}
 
 
 %changelog
+* Thu Nov  8 2012 Arkady L. Shane <ashejn@yandex-team.ru> - 18-0.2.R
+- do not use keyboard in kickstart.
+
 * Mon Oct 29 2012 Arkady L. Shane <ashejn@yandex-team.ru> - 18-0.1.R
 - update to RFRemix 18 Stuff.
 
